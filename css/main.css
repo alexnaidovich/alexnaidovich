@@ -295,7 +295,7 @@ main {
     border-radius: 30px;
     padding: 30px 0;
     background-color: #fff;
-    box-shadow: 5px 5px 8px #95cac5;
+    box-shadow: 0 0 8px #95cac5;
     margin-top: 60px;
 }
 .infoContent {
@@ -391,7 +391,7 @@ main {
     
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 5; /* Sit on top */
+    z-index: 11000; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */

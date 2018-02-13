@@ -13,8 +13,12 @@
     <link rel="stylesheet" href="css/media.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/jquery.circliful.min.js"></script>
+    
 </head>
 <body>
+   
+    
+   
     <div id="wrapper">
         <header>
            <div id="ontop"></div>
@@ -34,12 +38,11 @@
                 <div class="headerRight">
                     <div id="langSelectButton"><span class="fa fa-globe"></span></div>
                     <div class="hdrSocials">
-                        <a href="#"><span class="fa fa-vk"></span></a>
-
+                        
                         <a href="https://vk.com/dudestep" target="_blank"><span class="fa fa-vk"></span></a>
                         <a href="#"><span class="fa fa-facebook"></span></a>
                         <a href="https://instagram.com/is_it_dude5tep"><span class="fa fa-instagram"></span></a>
-                        <a href="#"><span class="fa fa-github"></span></a>
+                        <a href="https://github.com/alexnaidovich" target="_blank"><span class="fa fa-github"></span></a>
                     </div>
                     <button type="button" name="Hire Me" class="hireMeBtn1" id="hiremeButton">HIRE ME!</button>
                 </div>
@@ -141,8 +144,7 @@
             </div>
         </div>
 
-        <canvas id=c1></canvas>
-
+  
         <div id="bckgrdInfo">
             <div class="infoContainer">
                 <div class="infoContent">
@@ -221,9 +223,9 @@
                       <div class="xskills jquery">45%</div>
                     </div>
 
-                    <p>Bootstrap / Sass / Less </p>
+                    <p>Sass</p>
                     <div class="xBarsContainer">
-                      <div class="xskills sass">15%</div>
+                      <div class="xskills sass">52%</div>
                     </div>
 
                     <p>Responsive Design</p>
@@ -236,6 +238,30 @@
         </div>
 
 
+        <!-- begin portfolio  id="portfolio"-->
+        <div class="portfolio" id="portfolio">
+            
+            <h2>MY WORKS:</h2>
+            
+        	<!-- begin portfolio container -->
+        	<div class="portfolio__container" id="slider">
+        		
+        		<div class="sliderContainer">
+        		    
+        		    
+        		    
+        		    
+        		    
+        		    
+        		    
+        		</div>
+        		
+        	</div>
+        	<!-- end portfolio container -->
+        </div>
+        <!-- end portfolio  id="portfolio"-->
+        
+        
         <br>
         <br>
         <br>
@@ -247,34 +273,34 @@
     </main>
 
     <div id="ch" class="modals">
-                                <div class="modalContent">
-                                    <span class="close" id="close1">&times;</span>
-                                    <div class="modalContainer">
-                                    <div class="ageLeft">April 2015 — October 2017 </div>
-                                    <div class="ageRight"><b>Lidskoe Pivo JSC</b><br>Minsk, lidskoe.by<br><br>
-                                        <b>Advertising Agent (Retail Merchandiser)</b><br>
+        <div class="modalContent">
+            <span class="close" id="close1">&times;</span>
+            <div class="modalContainer">
+            <div class="ageLeft">April 2015 — October 2017 </div>
+            <div class="ageRight"><b>Lidskoe Pivo JSC</b><br>Minsk, lidskoe.by<br><br>
+                <b>Advertising Agent (Retail Merchandiser)</b><br>
 - Products placement according to the corporate standards of the company<br>
 - Newcomers training</div>
-                                    <div class="ageLeft">October 2014 — March 2015</div>
-                                    <div class="ageRight"><b>Dilertorg JLCC</b><br>Minsk <br><br>
-                                        <b>Retail Merchandiser</b><br>
+            <div class="ageLeft">October 2014 — March 2015</div>
+            <div class="ageRight"><b>Dilertorg JLCC</b><br>Minsk <br><br>
+                <b>Retail Merchandiser</b><br>
 - Products placement according to the corporate standards of the company; <br>
 - Retail assistance with bulk orders</div>
-                                    <div class="ageLeft">January 2014 — September 2014</div>
-                                    <div class="ageRight"><b>Saules Sapnis, Foreign Enterprise </b><br>
+            <div class="ageLeft">January 2014 — September 2014</div>
+            <div class="ageRight"><b>Saules Sapnis, Foreign Enterprise </b><br>
 Minsk <br> <br>
-                                        <b>Sales Manager</b> <br>
+                <b>Sales Manager</b> <br>
 Client base management (pharmacy wholesale and retail, traditional retail within whole Republic of Belarus), bulk orders assistance, contracts signing, negotiating, receivables management, customer search</div>
-                                    <div class="ageLeft">April 2010 — December 2013</div>
-                                    <div class="ageRight"><b>Vladprodimport LCC</b><br>
+            <div class="ageLeft">April 2010 — December 2013</div>
+            <div class="ageRight"><b>Vladprodimport LCC</b><br>
 Minsk <br> <br>
-                                        <b>Retail merchandiser, Merch Dept Supervisor, Sales Representative</b> <br>
+                <b>Retail merchandiser, Merch Dept Supervisor, Sales Representative</b> <br>
 - Products placement according to the corporate standards of the company;<br>
 - Record keeping and reporting the work of my team within Merchandising Department;<br>
 - Retail assistance with bulk orders.</div>
-                               </div>
-                                </div>
-                                <script>
+       </div>
+        </div>
+        <script>
         // Get the modal
 var modal = document.getElementById('ch');
 
@@ -282,7 +308,7 @@ var modal = document.getElementById('ch');
 var btn = document.getElementById("chButton");
 
 // Get the <span> element that closes the modal
-var span = document.getElementById("close1")[0];
+var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
@@ -337,7 +363,7 @@ var modal2 = document.getElementById('hireme');
 var btn2 = document.getElementById("hiremeButton");
 
 // Get the <span> element that closes the modal
-var span2 = document.getElementById("close2")[0];
+var span2 = document.getElementById("close2");
 
 // When the user clicks on the button, open the modal
 btn2.onclick = function() {
@@ -346,13 +372,15 @@ btn2.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal2) {
+    if (event.target == modal2 || event.target == modal) {
         modal2.style.display = "none";
+        modal.style.display = "none";
     }
 
 // When the user clicks on <span> (x), close the modal
 span2.onclick = function() {
     modal2.style.display = "none";
+    modal.style.display = "none";
 }
 
 
@@ -402,11 +430,11 @@ span2.onclick = function() {
                    });
 
                 $("#jsCircle").circliful({
-                        animationStep: 2,
+                        animationStep: 3,
                         foregroundBorderWidth: 5,
                         backgroundBorderWidth: 3,
                         foregroundColor: "red",
-                        percent: 33
+                        percent: 55
                    });
             isAnimated = true;
         }
@@ -430,4 +458,9 @@ span2.onclick = function() {
     })
 
 </script>
+
+<script src="js/obsolete.js"></script>
+
+
+
 </html>
